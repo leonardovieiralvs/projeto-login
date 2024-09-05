@@ -4,17 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Tela Login</title>
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-
+                <!--Imagem dentro da CSS-->
             </div>
 
             <div id="formulario">
-
+                <h1>Login</h1>
+                <p>Seja Bem-vindo(a) novamente. Faça login para acessar sua conta e fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <p id="input">
+                        <span class="material-symbols-outlined">person</span>
+                        <label for="iemail"></label>
+                        <input type="email" name="email" id="iemail" minlength="10" required placeholder="seu e-mail">
+                    </p>
+                    <p id="input">
+                        <span class="material-symbols-outlined">key</span>
+                        <label for="ipassword"></label>
+                        <input type="password" name="password" id="ipassword" minlength="6" required placeholder="sua senha">
+                    </p>
+                    <p id="button-enviar">
+                        <input id="button-enviar" type="submit" value="Entrar">
+                    </p>
+                    <p id="button-forget">
+                        <input id="button-forget-input" type="button" value="Esqueci a senha"> <span class="material-symbols-outlined">support_agent </span>
+                    </p>
+                </form>
             </div>
         </section>
     </main>

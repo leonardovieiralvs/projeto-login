@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --cor1: #49a09d;
+    --cor2: #5f2c82;
+}
+
+body {
+
+    background-color: var(--cor2);
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+div#imagem {
+    height: 40%;
+    background-image: url(../imagens/imagem-praia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+ 
+
+}
+
+div#formulario {
+    padding: 10px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+p#input {
+    border-radius: 10px;
+    padding-left: 5px;
+    color: white;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    background-color: #5f2c82;
+    padding-left: 5px;
+}
+
+#ipassword, #iemail {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #94CFCD
+}
+
+#button-enviar {
+    background-color: #7dc5c2;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+#button-enviar:hover {
+    background-color: #49a09d;
+}
+
+#button-forget {
+    border: none;
+    color: black;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #49a09d;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    display: block;
+}
+
+#button-forget:hover {
+    background-color: #7dc5c2;
+    cursor: pointer;
+
+}
+
+#button-forget-input {
+    border: none;
+}
+
+
