@@ -54,7 +54,7 @@ h1 {
 }
 
 p {
-    margin-bottom: 10px;
+   margin: 5px 15px 5px 15px;
 }
 
 /* CONTAINER FORMULÁRIO */
@@ -71,8 +71,7 @@ p#input {
     color: white;
     margin-top: 5px;
     background-color: #5f2c82;
-    padding-left: 5px;
-    width: 100%;
+    margin-left: 10px;
 }
 
 #ipassword, #iemail {
