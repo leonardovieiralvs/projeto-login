@@ -20,25 +20,20 @@
                 <p>Seja Bem-vindo(a) novamente. Faça login para acessar sua conta e fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post" autocomplete="on">
                     <!-- CAMPO PARA PREENCHER EMAIL -->
-                    <p id="input">
+                    <div id="campo">
                         <span class="material-symbols-outlined">person</span>
                         <label for="iemail"></label>
-                        <input type="email" name="email" id="iemail" minlength="10" required placeholder="seu e-mail">
-                    </p>
+                        <input type="email" name="email" id="iemail" minlength="10" required placeholder="seu e-mail" autocomplete="email">
+                    </div>
                     <!-- CAMPO PARA PREENCHER SENHA -->
-                    <p id="input">
-                        <span class="material-symbols-outlined">key</span>
+                    <div id="campo">
+                        <span class="material-symbols-outlined">vpn_key</span>
                         <label for="ipassword"></label>
-                        <input type="password" name="password" id="ipassword" minlength="6" maxlength="20" required placeholder="sua senha" max="">
-                    </p>
+                        <input type="password" name="password" id="ipassword" minlength="6" maxlength="20" required placeholder="sua senha" autocomplete="current-password">
+                    </div>
                     <!-- CAMPO BOTÃO ENVIAR E ESQUECI A SENHA -->
-                    <p>
-                        <input class="btn-bottom" id="btn-1" type="submit" value="Entrar">
-                    </p>
-
-                    <p>
-                        <input class="btn-bottom" id="btn-2" type="button" value="Esqueci a senha" >
-                    </p>
+                        <input class="btn-bottom" type="submit" value="Entrar">
+                        <a href="esqueci.html">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
                 </form>
             </div>
         </section>
