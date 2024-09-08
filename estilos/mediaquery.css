@@ -7,8 +7,8 @@
     }
 
     section#login {
-        width: 80vw;
-        height: 32vh;
+        width: 83vw;
+        height: 33vh;
     }
 
     div#imagem {
@@ -21,10 +21,6 @@
         float: right;
         width: 70%;
     }
-
-    #ipassword, #iemail {
-        width: 91%;
-    }
 }
 
 /* TELAS MAIORES */
@@ -35,7 +31,7 @@
     
     section#login {
         width: 950px;
-        height: 35vh;
+        height: 33vh;
     }
 
     div#imagem {
@@ -47,9 +43,5 @@
     div#formulario {
         float: left;
         width: 50%;
-    }
-
-    #ipassword, #iemail {
-        width: 91%;
     }
 }

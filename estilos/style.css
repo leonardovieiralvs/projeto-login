@@ -28,7 +28,7 @@ section#login {
     overflow: hidden;
     
     width: 250px;
-    height: 500px;
+    height: 520px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 0px 10px #00000073;
@@ -49,16 +49,29 @@ div#imagem {
 div#campo {
     background-color: #5f2c82;
     color: white;
-    border-radius: 10px;
-    width: 100%;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
+/* ICONES EMAIL E SENHA */
 div#campo > span {
-    padding-left: 5px;
-    position: relative;
-    top: 10px;
-    font-size: 1.8em;
+    font-size: 2em;
+    width: 40px;
+    transform: translateY(5px);
+    padding: 4px;
+}
+
+/* FORMULARIO EMAIL E SENHA */
+div#campo > input {
+    border-radius: 8px;
+    background-color: #94CFCD;
+    height: 100%;
+    width: calc(100% - 45px);
+    transform: translateY(-4px);
+    height: 47px;
+    padding: 3px;
+    font-size: 1em;
+ 
 }
 
 /* CONTAINER FORMULÁRIO */
@@ -74,13 +87,6 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
-}
-
-/* FORMULARIO EMAIL E SENHA */
-#ipassword, #iemail {
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #94CFCD;
 }
 
 /* BOTÕES ENTRAR E ESQUECI SENHA */
