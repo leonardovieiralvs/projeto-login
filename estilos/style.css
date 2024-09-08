@@ -48,6 +48,7 @@ div#imagem {
 
 div#campo {
     background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     color: white;
     border-radius: 8px;
     margin: 5px 0px;
@@ -65,10 +66,9 @@ div#campo > span {
 div#campo > input {
     border-radius: 8px;
     background-color: #94CFCD;
-    height: 100%;
     width: calc(100% - 45px);
     transform: translateY(-4px);
-    height: 47px;
+    height: 45px;
     padding: 3px;
     font-size: 1em;
  
