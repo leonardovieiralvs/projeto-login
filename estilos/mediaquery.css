@@ -7,7 +7,7 @@
     }
 
     section#login {
-        width: 750px;
+        width: 80vw;
         height: 32vh;
     }
 
@@ -20,6 +20,10 @@
     div#formulario {
         float: right;
         width: 70%;
+    }
+
+    #ipassword, #iemail {
+        width: 91%;
     }
 }
 
@@ -43,5 +47,9 @@
     div#formulario {
         float: left;
         width: 50%;
+    }
+
+    #ipassword, #iemail {
+        width: 91%;
     }
 }

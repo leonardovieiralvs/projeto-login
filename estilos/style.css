@@ -32,7 +32,7 @@ section#login {
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 0px 10px #00000073;
-    transition: width .5s, height .5s;
+    transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
 
@@ -79,7 +79,7 @@ div#formulario > p {
 /* FORMULARIO EMAIL E SENHA */
 #ipassword, #iemail {
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #94CFCD;
 }
 
