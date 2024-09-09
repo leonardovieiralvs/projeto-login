@@ -21,17 +21,17 @@ main {
 
 /* CONTAINER LOGIN */
 section#login {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-    
     width: 250px;
     height: 520px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 0px 10px #00000073;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -46,6 +46,7 @@ div#imagem {
     background-repeat: no-repeat;
 }
 
+/* DIV CAMPO */
 div#campo {
     background-color: #5f2c82;
     border: 2px solid #5f2c82;
@@ -54,12 +55,16 @@ div#campo {
     margin: 5px 0px;
 }
 
+div#campo > input:focus-within {
+    background-color: white;
+}
+
 /* ICONES EMAIL E SENHA */
 div#campo > span {
-    font-size: 2em;
+    font-size: 1.6em;
     width: 40px;
-    transform: translateY(5px);
     padding: 4px;
+    transform: translateY(6px);
 }
 
 /* FORMULARIO EMAIL E SENHA */
@@ -67,10 +72,10 @@ div#campo > input {
     border-radius: 8px;
     background-color: #94CFCD;
     width: calc(100% - 45px);
-    transform: translateY(-4px);
-    height: 45px;
-    padding: 3px;
+    height: 100%;
+    padding: 9px;
     font-size: 1em;
+    transform: translateY(-2px);
  
 }
 
