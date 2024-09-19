@@ -30,8 +30,8 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    overflow: hidden;
     transform: translate(-50%, -50%);
+    overflow: hidden;
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
